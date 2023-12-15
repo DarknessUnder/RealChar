@@ -97,7 +97,6 @@ struct RootView: View {
                 } else {
                     ToolbarItemGroup(placement: .navigation) {
                             Image("logo")
-                                .resizable()
                                 .padding(.leading, 32)
                     }
                 }
@@ -134,7 +133,6 @@ extension AnyTransition {
 struct LogoView: View {
     var body: some View {
         Image("logo")
-            .resizable()
     }
 }
 
